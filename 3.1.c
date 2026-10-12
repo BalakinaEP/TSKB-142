@@ -23,7 +23,7 @@ int main()
     {
         if (isOOF(x))
             {
-                printf("x = %lf, y = %lf\n",getY(x));
+                printf("x = %lf, y = %lf\n",x, getY(x));
             }
         else
             {
